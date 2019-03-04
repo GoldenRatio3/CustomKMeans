@@ -4,23 +4,17 @@ This is a Custom K-Means algorithm written in Spark to analyse the StackOverflow
 ```
 
 ## Getting Started
-```
-Download the StackOverflow dataset which can be found here https://www.kaggle.com/stackoverflow/stackoverflow
-```
+Download the StackOverflow dataset which can be found [here](https://www.kaggle.com/stackoverflow/stackoverflow)
 
 ### Prerequistes
 
-```
-Scala which can be downloaded from here https://www.scala-lang.org/download/
+1.  Scala which can be downloaded from [here](https://www.scala-lang.org/download/)
 
-Bash which can be downloaded from here https://www.gnu.org/software/bash/
-```
+2.  Bash which can be downloaded from [here](https://www.gnu.org/software/bash/)
 
 ### Installing
-```
 Once the dataset and prerequistes are downloaded and installed make sure the dataset is in the same 
 directory as this file then follow the running section below.
-```
 
 ### Running
 run `./run.sh` OR `run spark-shell -i stackoverflowkmeans.scala` from the bash terminal
